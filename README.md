@@ -1,2 +1,2 @@
 # Relaxing-Zone
-A simple prototype built by just using HTML, CSS and JAVASCRIPT.
+A simple prototype entertainment website built by just using HTML, CSS and JAVASCRIPT.
