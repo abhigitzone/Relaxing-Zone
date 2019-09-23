@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial;
+    padding:1px;
+    background-color: dimgrey;
+    }
+
+/* Header/Blog Title */
+.header {
+    padding: 50px;
+    margin: 0px;
+    text-align: center;
+    background-image:url(Gallery/abas2.jpg);
+    color:darkseagreen;
+    font-style: italic;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+    
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color:darkslategrey;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+    background-color: dimgrey;;
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color:dimgrey;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color:lightcoral;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color:darkslategrey;
+    margin-top: 20px;
+    color:;
+}
+    
+        .topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+    }
+    
+    .topnav .search-container {
+        float: right;}
+    .topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+    .topnav input[type=text] {
+    border: 1px solid #ccc;  
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>RELAXING ZONE</h1>
+  <p>Where entertainment leads to peace...</p>
+</div>
+
+<div class="topnav">
+  <a href="#">HOME</a>
+    <a href="#">NEW RELEASES</a>
+  <a href="./Gallery/home.html">GALLERY</a>
+    <a href="#">BLOGS</a>
+  <a href="#">DOWNLOADS</a>
+    <a href="#">SHOP</a> 
+    <a href="./login/login.html">LOGIN</a>
+    <div class="search-container">
+        <form action="#">
+      <input type="text" placeholder="Search.." name="search">
+           
+      
+    </form>
+      
+      </div>    
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><i><b>Movies Collection</b></i></h2>
+      <h5>Hollywood, Jul 12, 2018</h5>
+      <a href="#"><img src="Gallery/iron.jpg" width="1000px" height="330px"></a>
+      <p><b>OverView..</b></p>
+      <p>Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name, produced by Marvel Studios and distributed by Paramount Pictures.[N 1] It is the first film in the Marvel Cinematic Universe (MCU). The film was directed by Jon Favreau, with a screenplay by the writing teams of Mark Fergus and Hawk Ostby and Art Marcum and Matt Holloway. It stars Robert Downey Jr. as Tony Stark / Iron Man, alongside Terrence Howard, Jeff Bridges, Shaun Toub, and Gwyneth Paltrow. In Iron Man, Tony Stark, an industrialist and master engineer, builds a powered exoskeleton after a life-threatening incident and becomes the technologically advanced superhero Iron Man.</p>
+    </div>
+    <div class="card">
+      <h2>Songs Collection</h2>
+      <h5>Hollywood, Jul 12, 2017</h5>
+      <a href="./song/hollywood/Katy%20Perry%20-%20Part%20Of%20Me%20(Official).mp4"><img src="Gallery/katy.jpg" width="990px" height="330px"></a>
+      <p><b>OverView</b></p>
+      <p> There is a huge collection of MUSIC by Enrique Iglesias, Katy Peryy, Baby Rexha, Eminem, K.k, Taylor Swift, Ayo &amp;Tao, Anna Marie.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Us</h2>
+      <a href="#"><img src="Gallery/about.jpeg" width="280px" height="200px"></a>
+      <p><i>Just a passionate developer.</i></p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <a href="#"><img src="Gallery/wallpaper.jpg" width="280px" height="200px"></a>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+        <a href=#><p><i>Github:-----------------</i></p></a>
+      <a href="#"><p><i>Instagram:-------------</i></p></a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>&copy;All Right Reserved</h2>
+</div>
+
+</body>
+</html>
