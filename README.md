@@ -1,3 +1,7 @@
 # Relaxing-Zone
-A simple prototype entertainment website built by just using HTML, CSS and JAVASCRIPT.
-This is an entertainment related website used for listening to music and watching movies. You can also check blogs as well as signup as a premium member subscription to access all the entertainment relating contents. You can download the contents easily. You can also check for the new releases stuffs.
+•	This was an entertainment website built by just using the flavor of HTML, CSS, and JavaScript. Users can read the blogs about the latest upcoming movies, web magazines, celebrity news, coverage of sports, music, the arts, etc.
+
+Here is the ScreenShot: 
+
+![Screenshot (230)](https://user-images.githubusercontent.com/19603894/90477677-7204c980-e149-11ea-84a9-3002253f0921.png)
+![Screenshot (231)](https://user-images.githubusercontent.com/19603894/90477682-74672380-e149-11ea-9a45-0c2310d2c3f5.png)
